@@ -3,9 +3,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-Jorge159=pd.read_csv('CLAUDIO159.csv',sep=';')
-Jorge436=pd.read_csv('CLAUDIO436.csv',sep=';')
-Jorge1116=pd.read_csv('CLAUDIO1116.csv',sep=';')
+Jorge159=pd.read_csv('CLAUDIO159.csv.zip',sep=';')
+Jorge436=pd.read_csv('CLAUDIO436.csv.zip',sep=';')
+Jorge1116=pd.read_csv('CLAUDIO1116.csv.zip',sep=';')
 
 CLAU436=pd.read_csv('DD436.csv',sep=';')
 CLAU436.rename({'HERE':'MOVIMENTAÇÃO','QUANTIDADE':'POWER'},axis=1,inplace=True)
